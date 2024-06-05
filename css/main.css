@@ -16,6 +16,11 @@ html {
   border: 2px solid red;
 } */
 
+.darkBg {
+  background-color: #efece7;
+  /* color: #fff; */
+}
+
 /* Fonts */
 
 .heading2 {
@@ -225,11 +230,11 @@ html {
   padding-bottom: 20px;
   margin: 10px;
   border-radius: 8px;
-  border: 2px solid #34343400;
+  border: 2px solid #eae4dc00;
 }
 
 .projectGridItem:hover {
-  background-color: #ffffff;
+  background-color: #f8eee0;
   transition: 200ms;
   /* font-weight: bold; */
   border: 2px solid #343434;
@@ -246,6 +251,7 @@ html {
 
   margin: 20px;
   transition: 800ms;
+  background-color: rgb(255, 255, 255);
 }
 
 .projectImageDiv:hover {
