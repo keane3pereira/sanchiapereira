@@ -169,11 +169,11 @@ html {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  font-size: 54px;
+  font-size: 48px;
   letter-spacing: 2px;
   font-weight: 200;
   padding: 20px;
-  line-height: 60px;
+  line-height: 38px;
   word-spacing: 4px;
 }
 
@@ -196,9 +196,9 @@ html {
 
 .profileImageDiv {
   display: flex;
-  max-height: 500px;
+  max-height: 600px;
   position: relative;
-  max-width: 385px;
+  max-width: 405px;
   overflow: hidden;
 }
 
