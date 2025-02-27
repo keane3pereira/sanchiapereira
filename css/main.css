@@ -198,7 +198,7 @@ html {
   display: flex;
   max-height: 600px;
   position: relative;
-  max-width: 405px;
+  max-width: 600px;
   overflow: hidden;
 }
 
