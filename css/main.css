@@ -111,8 +111,9 @@ html {
 }
 
 .navItemDiv {
-  min-width: 200px;
-  padding: 16px;
+  min-width: 0.3vw;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
 }
 
@@ -121,7 +122,12 @@ html {
   flex-wrap: wrap;
   position: relative;
   justify-content: center;
-  padding: 10px;
+  
+  align-items: stretch;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  text-align: center;
 }
 
 .navLink {
@@ -141,8 +147,8 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  min-width: 100vw;
-  padding: 20px;
+  /* min-width: 100vw; */
+  /* padding: 20px; */
   align-items: center;
   justify-items: center;
   justify-content: space-evenly;
@@ -159,7 +165,7 @@ html {
   margin-right: 20px;
   justify-items: center;
   align-items: center;
-  text-align: justify;
+  /* text-align: justify; */
   align-content: center;
   justify-content: center;
 }
@@ -172,7 +178,8 @@ html {
   font-size: 48px;
   letter-spacing: 2px;
   font-weight: 200;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   line-height: 56px;
   word-spacing: 4px;
 }
