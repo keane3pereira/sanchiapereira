@@ -216,7 +216,7 @@ html {
 }
 
 
-/* Projects */
+/* Portfolio */
 
 .projectGridDiv {
   display: flex;
@@ -305,10 +305,11 @@ html {
 /* Footer */
 
 .footer {
+  justify-self: center;
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  width: 100vw;
+  width: 90vw;
   min-height: 40px;
   text-align: center;
   font-size: small;
